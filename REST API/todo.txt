@@ -1,9 +1,9 @@
 REST API- JSON
 
-GET/api/users: listing all the users
+GET/api/users: listing all the users- done
 
-GET/api/users/1: get user with ID 1
-GET/api/users/2: get user with ID 2
+GET/api/users/1: get user with ID 1- done
+GET/api/users/2: get user with ID 2- done
 
 
 POST/users: create new user
