@@ -15,3 +15,12 @@ accessed at 1705245275783: on /api/users route and used GET method
 accessed at 1705245676255: on /api/users/1000 route and used GET method
 accessed at 1705245841816: on /api/users/1000 route and used GET method
 accessed at 1705245850645: on /api/users/ route and used GET method
+accessed at 1705246574699: on /api/users/ route and used POST method
+accessed at 1705246593500: on /api/users/ route and used POST method
+accessed at 1705246603865: on /api/users/ route and used POST method
+accessed at 1705246618208: on /api/users/1004 route and used POST method
+accessed at 1705246624522: on /api/users/1004 route and used DELETE method
+accessed at 1705246906488: on /api/users/1006 route and used DELETE method
+accessed at 1705246910859: on /api/users/1006 route and used DELETE method
+accessed at 1705246919716: on /api/users/1006 route and used GET method
+accessed at 1705247986641: on / route and used GET method

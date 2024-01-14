@@ -29,7 +29,7 @@ app.post('/api/users', (req, res)=>{
     userData.push({...body, id: userData.length+1});
     //update the json file
     fs.writeFile('./MOCK_DATA.json', JSON.stringify(userData), (err, data)=>{
-        res.json({status: 'your id has been generated', id: userData.length })
+        res.status(202).json({status: 'your id has been generated', id: userData.length })
     })
 })
 
@@ -41,7 +41,7 @@ app.route('/api/users/:id')
     if(user){
         return res.json(user)
     }
-    return res.json({status:"user not found"})
+    return res.status(404).json({status:"user not found"})
 })
 
 // update data via patch request
