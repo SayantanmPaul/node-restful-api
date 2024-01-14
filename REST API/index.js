@@ -7,6 +7,15 @@ const PORT=8001
 //middleware
 app.use(express.json())
 
+//custom middleware
+
+app.use((req, res, next)=>{
+    fs.appendFile('log.txt', `\naccessed at ${Date.now()}: on ${req.url} route and used ${req.method} method`,(err, data)=>{
+        next()
+    })
+
+})
+
 //get the all user info in this route
 app.get('/api/users', (req, res)=>{
     return res.json(userData)

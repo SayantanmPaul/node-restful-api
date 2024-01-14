@@ -1,0 +1,7 @@
+accessed at function toLocaleString() { [native code] }: on /api/users route and used GET method
+accessed at 1705210387770: on /api/users route and used GET method
+accessed at 1705212459738: on /api/users route and used GET method
+accessed at 1705212469062: on /api/users route and used GET method
+accessed at 1705212487493: on /api/users/ route and used POST method
+accessed at 1705212513281: on /api/users/1002 route and used DELETE method
+accessed at 1705212515469: on /api/users/1002 route and used DELETE method
