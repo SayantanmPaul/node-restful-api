@@ -18,6 +18,8 @@ app.use((req, res, next)=>{
 
 //get the all user info in this route
 app.get('/api/users', (req, res)=>{
+    res.setHeader('X-Dyson', 'Sayantan Paul') //custom header
+    //always add X to custom headers- good practice 
     return res.json(userData)
 })
 
@@ -36,7 +38,10 @@ app.route('/api/users/:id')
 .get((req, res)=>{
     const id=Number(req.params.id)
     const user=userData.find(user=>user.id===id)
-    return res.json(user)
+    if(user){
+        return res.json(user)
+    }
+    return res.json({status:"user not found"})
 })
 
 // update data via patch request
