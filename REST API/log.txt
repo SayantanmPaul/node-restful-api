@@ -49,3 +49,6 @@ accessed at 1705267171388: on /api/users/65a44e127172907db1b0bad2 route and used
 accessed at 1705267174149: on /api/users/ route and used GET method
 accessed at 1705267215347: on /api/users/65a448ca749f6dae3b47a3e0 route and used PATCH method
 accessed at 1705267224719: on /api/users/ route and used GET method
+accessed at 1706421144727: on /api/users route and used GET method
+accessed at 1706421150091: on / route and used GET method
+accessed at 1706421154771: on /users route and used GET method

@@ -1,0 +1,17 @@
+
+accessed at 1706422980238: on / route and used GET method
+accessed at 1706422981640: on / route and used GET method
+accessed at 1706422985330: on /users route and used GET method
+accessed at 1706422985572: on /favicon.ico route and used GET method
+accessed at 1706423494709: on /users route and used GET method
+accessed at 1706423762551: on /users route and used GET method
+accessed at 1706426317196: on /users route and used GET method
+accessed at 1706426322197: on /api/users route and used GET method
+accessed at 1706426357258: on /api/users route and used POST method
+accessed at 1706426387395: on /api/users route and used POST method
+accessed at 1706426400084: on /api/users route and used POST method
+accessed at 1706426409437: on /api/users/65b60020ce9d4327c3264973 route and used POST method
+accessed at 1706426421008: on /api/users/65b60020ce9d4327c3264973 route and used GET method
+accessed at 1706426427747: on /api/users route and used GET method
+accessed at 1706426431454: on /api/users/65b60020ce9d4327c3264973 route and used GET method
+accessed at 1706427383465: on /api/users/ route and used GET method
