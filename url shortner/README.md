@@ -1,8 +1,7 @@
-### URL Shortner
-</br>
+# URL Shortner
 
-# Design a URL shortener service that takes in a valid URL and returns a shortened url, redirecting the user to the previous provided url.
-# Also keep the trak of total visit/clicks of the url.
+### Design a URL shortener service that takes in a valid URL and returns a shortened url, redirecting the user to the previous provided url.
+### Also keep the trak of total visit/clicks of the url.
 
 ## Routes
 - POST/URL - Generates a new short URL and returns the shortened URL in format example.com/random-id
